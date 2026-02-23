@@ -1,12 +1,12 @@
-// Nome: Gustavo Silva De Moura - RA:2040482522023
-// Fatec Ipiranga - Ads Vespertino 
-// Atividade PEM - Aula 2 - Dia 20/02/2025
-// Criar um programa que calcular quantas palavras possui determinada frase.
-
+/**-------------------------------------------*
+* -Nome: Gustavo Silva De Moura - RA:2040482522023
+  -Fatec Ipiranga - Ads Vespertino 
+  -Atividade PEM - Aula 2 - Dia 20/02/2025
+  -Objetivo: Criar um programa que calcular quantas palavras possui determinada frase. *           
+  *-------------------------------------------*/
 #include <stdio.h>
 #include <string.h>
-
-int main () {
+void main () {
     char frase[200];
     int i = 0, palavras = 0;
 
@@ -22,8 +22,6 @@ int main () {
 
         i++;
     }
-
     printf("A frase possui %d palavras.\n", palavras);
 
-    return 0;
 }
