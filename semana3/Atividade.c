@@ -14,7 +14,7 @@ struct Produto{
 };
 
 int main() {
-    struct Produto listaProduto[10]; // agora é vetor de struct
+    struct Produto listaProduto[10];
     int total = 0;
     int opcao, id, i, posicao;
 
