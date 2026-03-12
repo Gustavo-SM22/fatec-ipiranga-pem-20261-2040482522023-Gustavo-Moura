@@ -1,7 +1,7 @@
 /**-------------------------------------------*
 * -Nome: Gustavo Silva De Moura - RA:2040482522023
   -Fatec Ipiranga - Ads Vespertino 
-  -Atividade PEM - Aula 4 - Dia 02/03/2025
+  -Atividade PEM - Aula 4 - Dia 06/03/2025
   -Objetivo: Produção de um algoritmo em liguagem de programação
   estruturada, aplicando conceitos de manipulação de matrizes
   multidimensionais, estruturas de repetição, condicionais 
@@ -117,7 +117,7 @@ int main() {
         }
     }
 
-    mostrarTabuleiro();
+    mostrarTabuleiro();// mostra o estado final do tabuleiro após o término do jogo
 
     if(vencedor) {
         printf("O jogador %c venceu!\n", jogador);// exibe a mensagem de vitória para o jogador vencedor
